@@ -3,6 +3,9 @@ console.log('№2= '+/http:|https:/.test('https://code.mu'));
 console.log('№4= '+/.jpg|.jpeg/.test('file.jpg'));
 
 let k='11111111';
+
+// длину тоже необходимо задать через регулярку
+
 console.log('№6= '+(!/\D/.test(k) && k.length<12 && k.length>=1));
 
 console.log('№8= '+/^\d{1,2}\.\d{1,2}\.\d{4}$/.test('10.01.2000'));
